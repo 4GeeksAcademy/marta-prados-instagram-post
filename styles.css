@@ -1,0 +1,91 @@
+body {
+    background-color:pink; 
+    color: white;
+    font-family: "Roboto", sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.post-container {
+    background-color: white; 
+    color: black;
+    width: 400px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+.post-info {
+    flex: 1; 
+}
+
+.username {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.autor {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+}
+
+.options {
+    font-size: 20px;
+}
+
+.post-image img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-icons span,
+.right-icon span {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.post-likes {
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+.post-description {
+    padding: 10px;
+    font-size: 14px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.options {
+    font-size: 20px;
+    color: gray;
+    text-align: right;
+}
